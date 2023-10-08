@@ -1,0 +1,644 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.logo {
+    background-image: url(../images/logo.jpg)
+    background-size: 1px
+
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 700px;
+
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 3rem;
+}
+
+.texto {
+    background-color: #ee6351;
+    font-size: 1rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    width: 80px;
+
+    margin: 10px;
+    padding: 10px;
+
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    margin-left: 1800px; 
+
+    border-radius: 1rem;
+}
+
+.volverinicio {
+
+    background-color: #ee6351;
+    font-size: 1rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    width: 80px;
+
+    margin: 10px;
+    padding: 10px;
+
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    margin-left: 10px; 
+
+    border-radius: 1rem;
+}
+
+.texto1 {
+    background-color: #42d4e7;
+    font-size: 2rem;
+    font-palette: rgb(0, 0, 0);
+    width: 260px;  
+    margin: 20px;
+    padding: 10px;
+
+    margin-top: 20px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    margin-left: 20px;  
+    display: inline-block;
+}
+
+.texto2 {
+    background-color: #42d4e7;
+    font-size: 2rem;
+    font-palette: black;
+    width: 160px;
+    margin: 20px;
+    padding: 10px;
+    
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 260px; 
+
+    display: inline-block;
+    
+}
+
+.texto3 {
+    background-color: #42d4e7;
+    font-size: 2rem;
+    font-palette: black;
+    width: 90px;
+    margin: 10px;
+    padding: 10px;
+
+    
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 340px; 
+    display: inline-block;
+    
+}
+
+.texto4 {
+    background-color: #42d4e7;
+    font-size: 2rem;
+    font-palette: black;
+    width: 420px;
+    margin: 10px;
+    padding: 10px;
+    
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    margin-left: 270px; 
+    display: inline-block;
+}
+
+.logo {
+    background-color: #541361;
+    background-image: url(../images/logo.jpg);
+    background-position: center;
+    width: 600px;
+    height: 600px;
+    margin: 10px;
+    padding: 10px;
+
+    margin-top: 100px;
+    margin-left: 650px;
+    margin-right: 800px;
+    margin-bottom: 100px;
+    border-radius: 5000%;
+    display: block;
+
+}
+
+.cajita1 {
+    background-image: url(../images/celtas.jpg);
+    background-position: center;
+    font-size: 4rem;
+    width: 430px;
+    height: 250px;  
+    margin: 20px;
+    padding: 100px;  
+    display: inline-block;  
+    margin-right: 20px;
+    margin-left: 100px; 
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-style: ridge;
+
+}
+
+.cajita2 {
+    background-image: url(../images/TRADICIONAL.jpg);
+    background-position: center;
+    font-size: 4rem;
+    width: 430px;
+    height: 250px; 
+    padding: 100px;
+    display: inline-block;    
+    margin-right: 20px;
+    margin-left: 100px;  
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-style: ridge;
+}
+
+.cajita3 {
+    background-image: url(../images/NuevaEscuela.jpg);
+    background-position: center;
+    font-size: 4rem;
+    width: 430px;
+    height: 250px;
+    padding: 30px;
+    display: inline-block;   
+    margin-right: 20px;
+    margin-left: 100px; 
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-style: ridge;
+}
+
+
+.cajita4 {
+    background-image: url(../images/realismo.jpg);
+    background-position: center;
+    font-size: 4rem;
+    width: 430px;
+    height: 250px;
+    padding: 100px;
+    display: inline-block;  
+    margin-right: 20px;
+    margin-left: 100px; 
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-style: ridge;
+}
+
+.cajita5 {
+    background-image: url(../images/orientales.jpg);
+    background-position: center;
+    font-size: 4rem;
+    width: 430px;
+    height: 250px;
+    padding: 100px;
+    display: inline-block;  
+    margin-right: 20px;
+    margin-left: 100px; 
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-style: ridge;
+}
+
+.cajita6 {
+    background-image: url(../images/SURREALISMO.jpg);
+    background-position: center;
+    font-size: 4rem;
+    width: 430px;
+    height: 250px;
+    padding: 100px;
+    display: inline-block;  
+    margin-right: 20px;
+    margin-left: 100px; 
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-style: ridge;
+}
+
+
+.fotoperfil {
+    background-color: rgb(222, 194, 224);
+    font-size: 1.5rem;
+    font-palette: black;
+    width: 150px;
+    margin: 10px;
+    padding: 20px;
+
+    margin-left: 50px;
+    display: inline-block;
+
+}
+
+.nombre {
+    background-color: rgb(248, 247, 248);
+    font-size: 1.25rem;
+    font-palette: black;
+    width: 250px;
+    margin: 10px;
+    padding: 20px;
+    margin-left: 50px;
+    display: inline-block;
+}
+
+.email {
+    background-color: rgb(248, 247, 248);
+    font-size: 1.25rem;
+    font-palette: black;
+    width: 250px;
+    margin: 10px;
+    padding: 20px;
+    margin-left: 50px;
+    display: inline-block;
+
+}
+
+.cel {
+    background-color: rgb(248, 247, 248);
+    font-size: 1.25rem;
+    font-palette: black;
+    width: 250px;
+    margin: 10px;
+    padding: 20px;
+    margin-left: 50px;
+    display: inline-block;
+
+}
+
+.password {
+    background-color: rgb(248, 247, 248);
+    font-size: 1.25rem;
+    font-palette: black;
+    width: 250px;
+    margin: 10px;
+    padding: 20px;
+    margin-left: 50px;
+    display: inline-block;
+}
+
+.artestudio {
+    background-color: rgb(248, 247, 248);
+    font-size: 1.25rem;
+    font-palette: black;
+    width: 250px;
+    margin: 10px;
+    padding: 20px;
+    margin-left: 50px;
+    display: inline-block;
+
+}
+
+.nombreartista {
+    background-color: rgb(248, 247, 248);
+    font-size: 1.25rem;
+    font-palette: black;
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    margin-left: 330px;
+    display: inline-block;
+
+}
+
+.web {
+    background-color: rgb(248, 247, 248);
+    font-size: 1.25rem;
+    font-palette: black;
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    margin-left: 330px;
+    display: inline-block;
+
+
+}
+
+.localizacion {
+    background-color: rgb(248, 247, 248);
+    font-size: 1.25rem;
+    font-palette: black;
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    margin-left: 330px;
+    display: inline-block;
+
+
+}
+
+.estilo {
+    background-color: rgb(248, 247, 248);
+    font-size: 1.25rem;
+    font-palette: black;
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    margin-left: 330px;
+    display: inline-block;
+}
+
+.submit {
+    background-color: rgb(221, 190, 221);
+    font-size: 1.rem;
+    font-palette: black;
+    width: 250px;
+    margin: 10px;
+    padding: 20px;
+    margin-left: 50px;
+    margin-top: 50px;
+    display: inline-block;
+}
+
+.reset {
+    background-color: rgb(221, 190, 221);
+    font-size: 1rem;
+    font-palette: black;
+    width: 250px;
+    margin: 10px;
+    padding: 20px;
+    margin-left: 50px;
+    margin-top: 50px;
+    display: inline-block;
+
+}
+
+.footer {
+    background-color: rgb(255, 255, 255);
+    background-position: center;
+    font-size: 2rem;
+    width: 220px;
+    margin: 10px;
+    padding: 20px;
+    margin-left: 900px;
+    display: block;
+
+}
+
+.publicar {
+    background-color: rgb(131, 221, 149);
+    font-size: 1.25rem;
+    font-palette: black;
+    width: 250px;
+    margin: 10px;
+    padding: 20px;
+    margin-left: 50px;
+    display: block;
+}
+
+.nombre1 {
+
+    background-color: rgb(248, 247, 248);
+    font-size: 1.25rem;
+    font-palette: black;
+    width: 250px;
+    margin: 10px;
+    padding: 20px;
+    margin-left: 50px;
+    display: block;  
+}
+
+.mensaje {
+    background-color: rgb(248, 247, 248);
+    font-size: 1.25rem;
+    font-palette: black;
+    width: 400px;
+    margin: 10px;
+    padding: 100px;
+    margin-left: 50px;
+    display: block   
+}
+
+.enviarmsj {
+    background-color: rgb(224, 146, 224);
+    font-size: 1.25rem;
+    font-palette: black;
+    width: 250px;
+    margin: 10px;
+    padding: 20px;
+    margin-left: 50px;
+    display: block;
+    }
+
+.conectar {
+        background-color: rgb(21, 184, 212);
+        font-size: 1.25rem;
+        font-palette: black;
+        width: 250px;
+        margin: 10px;
+        padding: 20px;
+        margin-left: 50px;
+        display: block;
+        }
+
+.dejatuopinion {
+    background-color: rgb(226, 232, 233);
+    font-size: 1.25rem;
+    font-palette: rgb(5, 5, 5);
+    width: 250px;
+    margin: 10px;
+    padding: 20px;
+    margin-left: 50px;
+    display: block;
+    }
+
+.misartistas {
+    background-color: rgb(216, 239, 243);
+    font-size: 1.25rem;
+    font-palette: rgb(5, 5, 5);
+    width: 600px;
+    margin: 10px;
+    padding: 100px;
+    margin-left: 50px;
+    display: block;
+}
+
+.opiniones {
+    background-color: rgb(216, 239, 243);
+    font-size: 1.25rem;
+    font-palette: rgb(5, 5, 5);
+    width: 600px;
+    margin: 10px;
+    padding: 100px;
+    margin-left: 50px;
+    display: block;
+}
+
+.conexiones {
+    background-color: rgb(236, 241, 189);
+    font-size: 1.25rem;
+    font-palette: rgb(5, 5, 5);
+    width: 600px;
+    margin: 10px;
+    padding: 100px;
+    margin-left: 50px;
+    display: block;
+
+
+}
+
+.textotablero {
+    font-size: 2rem;
+    font-palette: black;
+    margin-left: 750px;
+
+}
+
+.MiTablero {
+    background-color: rgb(242, 249, 250);
+    width: 1900px;
+    margin: 10px;
+    padding: 500px;
+    display: inline-block;
+    }
+
+.nombre2 {
+    background-color: rgb(248, 247, 248);
+    font-size: 1.25rem;
+     font-palette: black;
+     width: 250px;
+    margin: 10px;
+    padding: 20px;
+    margin-top: 50PX;
+    margin-left: 50px;
+    display: block; 
+ }
+
+ .email2 {
+    background-color: rgb(248, 247, 248);
+    font-size: 1.25rem;
+     font-palette: black;
+     width: 250px;
+    margin: 10px;
+    padding: 20px;
+    margin-left: 50px;
+    display: block; 
+ }
+
+ .localizacion2 {
+    background-color: rgb(248, 247, 248);
+    font-size: 1.25rem;
+     font-palette: black;
+     width: 250px;
+    margin: 10px;
+    padding: 20px;
+    margin-left: 50px;
+    display: block; 
+ }
+
+ .estilo2 {
+    background-color: rgb(248, 247, 248);
+    font-size: 1.25rem;
+     font-palette: black;
+     width: 250px;
+    margin: 10px;
+    padding: 20px;
+    margin-left: 50px;
+    display: block; 
+ }
+
+ .logoimagen {
+   background-color: rgb(172, 215, 243);
+    font-size: 1.25rem;
+     font-palette: black;
+     width: 250px;
+    margin: 10px;
+    padding: 20px;
+    margin-left: 50px;
+    display: block; 
+ }
+
+ .nombre3 {
+    background-color: rgb(172, 215, 243);
+     font-size: 1.25rem;
+      font-palette: black;
+      width: 250px;
+     margin: 10px;
+     padding: 20px;
+     margin-left: 50px;
+     display: block; 
+  }
+
+  .contacto {
+    background-color: rgb(172, 215, 243);
+     font-size: 1.25rem;
+      font-palette: black;
+      width: 250px;
+     margin: 10px;
+     padding: 20px;
+     margin-left: 50px;
+     display: block; 
+  }
+
+  .estilos {
+    background-color: rgb(172, 215, 243);
+     font-size: 1.25rem;
+      font-palette: black;
+      width: 250px;
+     margin: 10px;
+     padding: 20px;
+     margin-left: 50px;
+     display: block; 
+  }
+
+  .Opiniones {
+    background-color: rgb(172, 215, 243);
+     font-size: 1.25rem;
+      font-palette: black;
+      width: 250px;
+     margin: 10px;
+     padding: 20px;
+     margin-left: 50px;
+     display: block; 
+  }
+
+.iniciarchat {
+    background-color: rgb(247, 186, 151);
+    font-size: 1.25rem;
+     font-palette: black;
+     width: 250px;
+    margin: 10px;
+    padding: 20px;
+    margin-left: 200px;
+    display: inline-block;
+
+}
+
+.pregunta {
+    background-color: rgb(238, 200, 200);
+    font-size: 1.25rem;
+     font-palette: black;
+     width: 400px;
+    margin: 10px;
+    padding: 10px;
+    margin-left: 200px;
+    margin-top: 30px;
+    display: block;
+}
+
+.respuesta {
+    background-color: rgb(200, 224, 238);
+    font-size: 1.25rem;
+     font-palette: black;
+     width: 700px;
+    margin: 10px;
+    padding: 20px;
+    margin-left: 200px;
+    display: block;
+
+}
