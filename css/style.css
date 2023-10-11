@@ -1,130 +1,8 @@
 
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-
 .logo {
-    background-image: url(../images/logo.jpg)
-    background-size: 1px
-
-    margin-top: 20px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    margin-left: 700px;
-
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-font-size: 3rem;
-}
-
-.texto {
-    background-color: #ee6351;
-    font-size: 1rem;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
-    width: 80px;
-
-    margin: 10px;
-    padding: 10px;
-
-    margin-top: 10px;
-    margin-right: 10px;
-    margin-bottom: 30px;
-    margin-left: 1800px; 
-
-    border-radius: 1rem;
-}
-
-.volverinicio {
-
-    background-color: #ee6351;
-    font-size: 1rem;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
-    width: 80px;
-
-    margin: 10px;
-    padding: 10px;
-
-    margin-top: 10px;
-    margin-right: 10px;
-    margin-bottom: 30px;
-    margin-left: 10px; 
-
-    border-radius: 1rem;
-}
-
-.texto1 {
-    background-color: #42d4e7;
-    font-size: 2rem;
-    font-palette: rgb(0, 0, 0);
-    width: 260px;  
-    margin: 20px;
-    padding: 10px;
-
-    margin-top: 20px;
-    margin-right: 30px;
-    margin-bottom: 10px;
-    margin-left: 20px;  
-    display: inline-block;
-}
-
-.texto2 {
-    background-color: #42d4e7;
-    font-size: 2rem;
-    font-palette: black;
-    width: 160px;
-    margin: 20px;
-    padding: 10px;
-    
-    margin-top: 0px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    margin-left: 260px; 
-
-    display: inline-block;
-    
-}
-
-.texto3 {
-    background-color: #42d4e7;
-    font-size: 2rem;
-    font-palette: black;
-    width: 90px;
-    margin: 10px;
-    padding: 10px;
-
-    
-    margin-top: 0px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    margin-left: 340px; 
-    display: inline-block;
-    
-}
-
-.texto4 {
-    background-color: #42d4e7;
-    font-size: 2rem;
-    font-palette: black;
-    width: 420px;
-    margin: 10px;
-    padding: 10px;
-    
-    margin-top: 0px;
-    margin-right: 10px;
-    margin-bottom: 50px;
-    margin-left: 270px; 
-    display: inline-block;
-}
-
-.logo {
-    background-color: #541361;
     background-image: url(../images/logo.jpg);
     background-position: center;
+   
     width: 600px;
     height: 600px;
     margin: 10px;
@@ -135,100 +13,115 @@ font-size: 3rem;
     margin-right: 800px;
     margin-bottom: 100px;
     border-radius: 5000%;
-    display: block;
-
+    display: flex;
 }
 
-.cajita1 {
+.texto {
+    background-color: #e9d0cd;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 80px;
+    margin: 10px;
+    padding: 10px;
+    margin-left: 1700px;
+    
+}
+
+
+.textonav-flex {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+     }
+
+ .botones {
+  
+    font-size: 1rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: #0e0201;
+    border-style: ridge;
+    padding: 20px;
+    margin: 10px;
+ }    
+
+ .grid-container {
+    display: grid;
+    column-gap: 20px
+    grid-template-columns: 300px 00px; 
+    grid-template-rows: 40px 100px; 
+    grid-template-columns: 3fr 2fr 1fr; 
+    grid-template-rows: 2fr 1fr; 
+    row-gap: 30px;
+    column-gap: 300px;
+    margin: 0;	 
+
+    justify-items: center; 
+    align-items: center;
+}
+
+
+.grid-item1 {
     background-image: url(../images/celtas.jpg);
-    background-position: center;
-    font-size: 4rem;
-    width: 430px;
-    height: 250px;  
-    margin: 20px;
-    padding: 100px;  
-    display: inline-block;  
-    margin-right: 20px;
-    margin-left: 100px; 
-    margin-top: 50px;
-    margin-bottom: 50px;
+    background-position: center
+    height: 100px;  
+    width: 300px
+    margin: 100px;
+    padding: 100px;
     border-style: ridge;
 
 }
 
-.cajita2 {
+.grid-item2 {
     background-image: url(../images/TRADICIONAL.jpg);
-    background-position: center;
-    font-size: 4rem;
-    width: 430px;
-    height: 250px; 
+    background-position: center
+    height: 100px;  
+    width: 300px 
+    margin: 100px;
     padding: 100px;
-    display: inline-block;    
-    margin-right: 20px;
-    margin-left: 100px;  
-    margin-top: 50px;
-    margin-bottom: 50px;
     border-style: ridge;
+    
 }
 
-.cajita3 {
+.grid-item3 {
     background-image: url(../images/NuevaEscuela.jpg);
-    background-position: center;
-    font-size: 4rem;
-    width: 430px;
-    height: 250px;
-    padding: 30px;
-    display: inline-block;   
-    margin-right: 20px;
-    margin-left: 100px; 
-    margin-top: 50px;
-    margin-bottom: 50px;
+    background-position: center
+    height: 100px;  
+    width: 300px
+    margin: 100px;
+    padding: 100px;
     border-style: ridge;
 }
 
 
-.cajita4 {
+.grid-item4 {
     background-image: url(../images/realismo.jpg);
-    background-position: center;
-    font-size: 4rem;
-    width: 430px;
-    height: 250px;
+    background-position: center
+    height: 100px;  
+    width: 300px 
+    margin: 100px;
     padding: 100px;
-    display: inline-block;  
-    margin-right: 20px;
-    margin-left: 100px; 
-    margin-top: 50px;
-    margin-bottom: 50px;
     border-style: ridge;
 }
 
-.cajita5 {
+.grid-item5 {
     background-image: url(../images/orientales.jpg);
-    background-position: center;
-    font-size: 4rem;
-    width: 430px;
-    height: 250px;
+    background-position: center
+    height: 100px;  
+    width: 300px 
+    margin: 100px;
     padding: 100px;
-    display: inline-block;  
-    margin-right: 20px;
-    margin-left: 100px; 
-    margin-top: 50px;
-    margin-bottom: 50px;
     border-style: ridge;
 }
 
-.cajita6 {
+.grid-item6 {
     background-image: url(../images/SURREALISMO.jpg);
-    background-position: center;
-    font-size: 4rem;
-    width: 430px;
-    height: 250px;
+    bbackground-position: center
+    height: 100px;  
+    width: 300px
+    margin: 100px;
     padding: 100px;
-    display: inline-block;  
-    margin-right: 20px;
-    margin-left: 100px; 
-    margin-top: 50px;
-    margin-bottom: 50px;
     border-style: ridge;
 }
 
@@ -237,7 +130,8 @@ font-size: 3rem;
     background-color: rgb(222, 194, 224);
     font-size: 1.5rem;
     font-palette: black;
-    width: 150px;
+    height: 100px;  
+    width: 300px
     margin: 10px;
     padding: 20px;
 
@@ -383,12 +277,49 @@ font-size: 3rem;
     background-position: center;
     font-size: 2rem;
     width: 220px;
-    margin: 10px;
+    margin: 100px;
     padding: 20px;
     margin-left: 900px;
     display: block;
 
 }
+
+.topnav {
+    overflow: hidden;
+    background-color: #c5abe2;
+    font-size: 1rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+    padding: 20px;
+    margin: 10px;
+
+    list-style-type:none ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    }
+
+
+  @media screen and (max-width: 600px) 
+  .topnav a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; }
+
+    .topnav input {
+        display:block;
+        width: 100%;
+        }
+
+    .topnav div {
+            display:block;
+            width: 100%;
+            }
+
+
 
 .publicar {
     background-color: rgb(131, 221, 149);
@@ -492,23 +423,20 @@ font-size: 3rem;
 
 }
 
-.textotablero {
-    font-size: 2rem;
-    font-palette: black;
-    margin-left: 750px;
-
-}
 
 .MiTablero {
     background-color: rgb(242, 249, 250);
     width: 1900px;
     margin: 10px;
-    padding: 500px;
-    display: inline-block;
+    padding: 1000px;
+    display: block;
+
+    font-size: 2rem;
+    font-palette: black;
     }
 
 .nombre2 {
-    background-color: rgb(248, 247, 248);
+    background-color: rgb(248, 239, 248);
     font-size: 1.25rem;
      font-palette: black;
      width: 250px;
